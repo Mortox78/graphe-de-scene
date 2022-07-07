@@ -1,0 +1,51 @@
+//===================== Graphe de scène ==================//
+
+By : Steeven NOVO
+Released the : 20/12/2019
+
+//===================== DESCRIPTION ==================//
+
+This project consisted to create a tree of objects/referentials
+which will be displayed on the screen by using my own transformation
+matrix. We had to create a recursive function and display every objects.
+
+//===================== HOW TO BUILD ==================//
+
+First, make sure that no indiresable files are present by using
+the command "make clean", then use the command "make" to make
+the executable appear ( "grph" )
+
+//===================== HOW TO RUN ==================//
+
+After having built the project, make it run by using the command
+"./grph". If it doesn't run, try to rebuild it by using the command
+"make clean" and "make".
+
+
+//===================== FEATURES ==================//
+
+We're in a 3D environment, spheres, cylinders, and cubes can be drawn.
+The current tree of objects in my project is = world --> sphere --> cube --> cylinder
+
+There is a prepared "main" where you will be able to test the project.
+You can translate/scale the sphere by using :
+- TRANSLATION : "directional arrows", "space" and "left control"
+- SCALE       : "+" and "-" from the key panel
+
+//===================== TECHNIQUES USED ==================//
+
+OpenGL 3, my own transformation matrix.
+
+//===================== NOT ADDED FEATURES & BUGS ==================//
+
+- XML not added.
+
+//===================== FILES LOCATIONS ==================//
+
+Matrix classes are in the folder "snmath"
+- matrix.cpp
+- matrix.h
+- matrix4.cpp
+- matrix4.h
+
+There is a 30 seconds video of the project in the folder "media" (.MP4).
